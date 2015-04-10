@@ -81,5 +81,11 @@ describe('Hotrod Logger', function() {
             require('../lib/index')('bar');
             assert.equal(requestedLevel, 'DEBUG');
         });
+
+        it('can set log level for individual filename based logger from environment variable', function() {
+            process.env.LOG_LEVEL_TRACE = 'loggerTests';
+            require('../lib/index')(__filename);
+            assert.equal(requestedLevel, 'TRACE');
+        });
     });
 });
