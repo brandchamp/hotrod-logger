@@ -11,6 +11,10 @@
     "logging",
     "logger"
   ],
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/panoptix-za/hotrod-logger.git"
+  },
   "author": "",
   "license": "MIT",
   "dependencies": {
