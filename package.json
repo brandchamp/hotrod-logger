@@ -1,6 +1,6 @@
 {
   "name": "hotrod-logger",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "Simple bunyan based logging helper",
   "main": "lib/index.js",
   "scripts": {
